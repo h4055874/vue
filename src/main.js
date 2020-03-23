@@ -6,6 +6,12 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+
+import HeyUI from 'heyui';
+Vue.use(HeyUI);
+
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
